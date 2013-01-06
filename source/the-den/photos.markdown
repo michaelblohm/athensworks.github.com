@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "The Den: Photos"
-date: 2013-01-06 16:47
-comments: true
+comments: false
 sharing: true
 footer: true
 ---
 
-We can put photos here
+We can put photos here via Flickr or Google photo albums
