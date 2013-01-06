@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[AthensWorks]]></title>
-  <link href="http://AthensWorks.github.com/atom.xml" rel="self"/>
-  <link href="http://AthensWorks.github.com/"/>
-  <updated>2013-01-06T16:59:07-05:00</updated>
-  <id>http://AthensWorks.github.com/</id>
+  <title><![CDATA[Athensworks]]></title>
+  <link href="http://athensworks.github.com/atom.xml" rel="self"/>
+  <link href="http://athensworks.github.com/"/>
+  <updated>2013-01-06T18:08:11-05:00</updated>
+  <id>http://athensworks.github.com/</id>
   <author>
-    <name><![CDATA[AthensWorks]]></name>
+    <name><![CDATA[Athensworks]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

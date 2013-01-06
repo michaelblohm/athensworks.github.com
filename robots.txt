@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://AthensWorks.github.com/sitemap.xml 
+Sitemap: http://athensworks.github.com/sitemap.xml 
