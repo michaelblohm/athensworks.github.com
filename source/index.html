@@ -1,40 +1,22 @@
 ---
-layout: default
+layout: home
+title: "Home"
+comments: false
+sharing: false
+footer: false
 ---
 
-<article role="article">
+<div class="blah">
   <h2>Where are we?</h2>
   We’re located in uptown Athens, Ohio. Just turn right at the end of Court Street, and you’ll find us not a block later at 29 East Carpenter Street. Look for the glass storefront.
-
-  <h2>Who work's here</h2>
-  Much of our interest is currently from folks in technology, media, and academia, but we are glad to have as much diversity as we can find seats for.
-
-  <h2>Who is welcome?</h2>
-  If you can do your work at a desk, we welcome you to check us out. Part of the fun of a coworking space should be working with people who do something radically different from you!
-</article>
-
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
 </div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+
+<div class="mid">
+  <h2>Who work's here?</h2>
+  Much of our interest is currently from folks in technology, media, and academia, but we are glad to have as much diversity as we can find seats for. <a href="/membership/members">Meet the members</a>.
+</div>
+  
+<div class="right">
+  <h2>Who is welcome?</h2>
+  If you can do your work at a desk, we welcome you to check us out. Part of the fun of a coworking space is working with people who do something radically different from you!
+</div>
