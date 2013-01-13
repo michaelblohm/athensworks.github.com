@@ -1,25 +1,17 @@
 ---
 layout: page
-title: "events"
+title: "Events"
 comments: false
 sharing: true
 footer: true
 ---
 
-Athensworks Mixer
------------------
-*Thursday February 17th*
-
-* Ridge Runner Coffee
-* Athensworks members
-* Innovation Center
-
-
 Who's doing what?
 -------------------
 *Feb 20th or 21st*
-
-
+* Ridge Runner Coffee
+* Athensworks members
+* Innovation Center
 
 Hack Night
 ----------
