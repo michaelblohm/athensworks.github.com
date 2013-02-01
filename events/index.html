@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>events - Athensworks</title>
+  <title>Events - Athensworks</title>
   <meta name="author" content="Athensworks">
 
   
-  <meta name="description" content="<!-- Events --> Athensworks Mixer Thursday February 17th Ridge Runner Coffee
-Athensworks members
-Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
+  <meta name="description" content="<!-- Events --> Who&#8217;s doing what? February 20th or 21st Learn about what the members of Athensworks are up to and Highlights include: Ridge &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -23,14 +21,14 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
   <link rel="canonical" href="http://athensworks.github.com/events/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Athensworks" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+  <!-- Slideshow -->
+{
   
 
 </head>
@@ -58,14 +56,12 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
   
 <ul class="main-navigation">
   <li><a href="/">Home</a></li>
-  <li><a href="/the-den">The Den</a></li>
   <li><a href="/membership">Membership</a></li>
   <li><a href="/events">Events</a></li>
   <li><a href="/join">Join</a></li>
   <li><a href="/blog">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
-
 </nav>
   <div id="main">
     <div id="content">
@@ -77,9 +73,13 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
     
   </header>
    -->
-  <h2>Athensworks Mixer</h2>
+  <h2>Who&#8217;s doing what?</h2>
 
-<p><em>Thursday February 17th</em></p>
+<p><em>February 20th or 21st</em></p>
+
+<p>Learn about what the members of Athensworks are up to and</p>
+
+<p>Highlights include:</p>
 
 <ul>
 <li>Ridge Runner Coffee</li>
@@ -88,13 +88,9 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
 </ul>
 
 
-<h2>Who&#8217;s doing what?</h2>
-
-<p><em>Feb 20th or 21st</em></p>
-
 <h2>Hack Night</h2>
 
-<p><em>Second Friday of every month</em></p>
+<p><em>Second Friday of every month, starting at 6 pm</em></p>
 
 <p>We host a hack night every month. <strong>What&#8217;s a hack night, you ask?</strong> Programmers of all shapes, sizes, ages, and skill levels come together to tackle a project.  There isn&#8217;t a plan until we get there.  We provide some food, drinks and an open space.  You bring ideas, computers, and a willingness to ship something real that night.</p>
 
@@ -125,7 +121,38 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
 
 <aside class="sidebar">
   
-    <section>
+    
+<section>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("Athensworks", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/Athensworks" class="twitter-follow-button" data-show-count="false">Follow @Athensworks</a>
+  
+</section>
+
+
+<section>
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-like-box" data-href="https://www.facebook.com/Athensworks" data-width="250" data-height="500" data-show-faces="true" data-stream="true" data-header="true"></div>
+</section>
+
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -163,23 +190,6 @@ Innovation Center Who&#8217;s doing what? Feb 20th &hellip;">
     });
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("Athensworks", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/Athensworks" class="twitter-follow-button" data-show-count="false">Follow @Athensworks</a>
-  
 </section>
 
 

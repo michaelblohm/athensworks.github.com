@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="<!-- Blog Archive --> 2013 JELLYWEEK 2013
-Jan 08 2013 posted in jellyweek Recent Posts JELLYWEEK 2013 GitHub Repos Status updating... @Athensworks &hellip;">
+Jan 08 2013 posted in jellyweek Status updating... $.domReady(function(){ getTwitterFeed("Athensworks", 4 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,14 +22,14 @@ Jan 08 2013 posted in jellyweek Recent Posts JELLYWEEK 2013 GitHub Repos Status 
   <link rel="canonical" href="http://athensworks.github.com/blog/archives/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Athensworks" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+  <!-- Slideshow -->
+{
   
 
 </head>
@@ -57,14 +57,12 @@ Jan 08 2013 posted in jellyweek Recent Posts JELLYWEEK 2013 GitHub Repos Status 
   
 <ul class="main-navigation">
   <li><a href="/">Home</a></li>
-  <li><a href="/the-den">The Den</a></li>
   <li><a href="/membership">Membership</a></li>
   <li><a href="/events">Events</a></li>
   <li><a href="/join">Join</a></li>
   <li><a href="/blog">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
-
 </nav>
   <div id="main">
     <div id="content">
@@ -104,7 +102,38 @@ Jan 08 2013 posted in jellyweek Recent Posts JELLYWEEK 2013 GitHub Repos Status 
 
 <aside class="sidebar">
   
-    <section>
+    
+<section>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("Athensworks", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/Athensworks" class="twitter-follow-button" data-show-count="false">Follow @Athensworks</a>
+  
+</section>
+
+
+<section>
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-like-box" data-href="https://www.facebook.com/Athensworks" data-width="250" data-height="500" data-show-faces="true" data-stream="true" data-header="true"></div>
+</section>
+
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -142,23 +171,6 @@ Jan 08 2013 posted in jellyweek Recent Posts JELLYWEEK 2013 GitHub Repos Status 
     });
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("Athensworks", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/Athensworks" class="twitter-follow-button" data-show-count="false">Follow @Athensworks</a>
-  
 </section>
 
 
