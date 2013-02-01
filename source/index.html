@@ -4,19 +4,41 @@ title: "Home"
 comments: false
 sharing: false
 footer: false
+basic_slider: true
 ---
 
-<div class="blah">
-  <h2>Where are we?</h2>
-  We’re located in uptown Athens, Ohio. Just turn right at the end of Court Street, and you’ll find us not a block later at 29 East Carpenter Street. Look for the glass storefront.
-</div>
-
-<div class="mid">
-  <h2>Who work's here?</h2>
-  Much of our interest is currently from folks in technology, media, and academia, but we are glad to have as much diversity as we can find seats for. <a href="/membership/members">Meet the members</a>.
-</div>
+<!--  Outer wrapper for presentation only, this can be anything you like -->
+<div id="banner-fade">
   
-<div class="right">
-  <h2>Who is welcome?</h2>
-  If you can do your work at a desk, we welcome you to check us out. Part of the fun of a coworking space is working with people who do something radically different from you!
+  <!-- start Basic Jquery Slider -->
+  <ul class="bjqs">
+    <li><img src="/images/slideshow/slide1.jpeg" title="Our conference table"></li>
+    <li><img src="/images/slideshow/slide2.jpeg" title="The front view"></li>
+    <li><img src="/images/slideshow/slide3.jpeg" title="Chairs on the wall"></li>
+  </ul>
+  <!-- end Basic jQuery Slider -->
+
 </div>
+<!-- End outer wrapper -->
+
+<script class="secret-source">
+  jQuery(document).ready(function($) {
+
+    $('#banner-fade').bjqs({
+      height      : 320,
+      width       : 620,
+      responsive  : true
+    });
+
+  });
+</script>
+
+<!-- text -->
+<h2>Where are we?</h2>
+We’re located in uptown Athens, Ohio. Just turn right at the end of Court Street, and you’ll find us not a block later at 29 East Carpenter Street. Look for the glass storefront.
+
+<h2>Who work's here?</h2>
+Much of our interest is currently from folks in technology, media, and academia, but we are glad to have as much diversity as we can find seats for. <a href="/membership/members">Meet the members</a>.
+
+<h2>Who is welcome?</h2>
+If you can do your work at a desk, we welcome you to check us out. Part of the fun of a coworking space is working with people who do something radically different from you!
