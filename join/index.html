@@ -73,17 +73,51 @@
     
   </header>
    -->
-  <p>We are looking for members who are doing interesting and creative work in Athens County.  As long as you need a desk, a space, or a conference room to get your work done, you&#8217;re a good fit.  Of course, being smart, funny, intersting, and willing to work near others like yourself is strongly encoursed.  If you have questions, stop by, or get in contact with us.  Otherwise, see our rates below or signup!</p>
+  <p>We are looking for members who are doing interesting and creative work in Athens County.  As long as you need a desk, a space, or a conference room to get your work done, you&#8217;re a perfect fit.  Of course, being smart, funny, intersting, and willing to work near others like yourself is strongly encouraged.  If you have questions, stop by, or get in contact with us.  Otherwise, see our rates below or <a href="https://docs.google.com/a/athensworks.com/spreadsheet/viewform?formkey=dGI4WUlFaE9nZ2xNUjZuVXNGMWlVSXc6MQ">signup</a>!!</p>
 
-<h2>Rates</h2>
+<h2>Amenities</h2>
 
 <ul>
-<li>Daily membership ($8 for today)</li>
-<li>Monthly membership ($50 for the next 30 days)</li>
+<li>Desk (near windows or interior spaces)</li>
+<li>Wi-fi</li>
+<li>Coffee, provided by Ridge Runner Coffee</li>
+<li>Microwave</li>
+<li>Refrigerator</li>
+<li>Conference table</li>
+<li>Open space for stretching</li>
 </ul>
 
 
-<p>Ready to join?  <a href="https://docs.google.com/a/athensworks.com/spreadsheet/viewform?formkey=dGI4WUlFaE9nZ2xNUjZuVXNGMWlVSXc6MQ">Signup</a> and get started today!</p>
+<h2>Rate Table</h2>
+
+<table id="rate_table">
+  <tbody>
+    <tr>
+      <th style="width:100px;"></td>
+      <th style="width:86px;"><strong>Individual</strong></td>
+      <th style="width:120px;"><strong>Business</strong></td>
+      <th style="width:120px;"><strong>Non-profit</strong></td>
+      <th style="width:120px;"><strong>Non-members</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Price</strong></td>
+      <td>$50/month<strong>*</strong></td>
+      <td>$50/month<strong>*</strong></td>
+      <td>$25/month<strong>*</strong></td>
+      <td>$8/day</td>
+    </tr>
+    <tr>
+      <td style="height: 95px;"><strong>Conference Room</strong></td>
+      <td>First come, first served</td>
+      <td>First come, first served</td>
+      <td>Free/2 hrs<br/>$30/half day<br/>$50/full day</td>
+      <td>$15/hour<br/>$50/half day<br/>$80/full day</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p><em><strong>*</strong>Introductory rate for 3 months. Rate will double.</em></p>
 
   
     <footer>
@@ -153,12 +187,10 @@
 </section>
 
 <section>
-  <h1>GitHub Repos</h1>
+  <h1>GitHub Projects</h1>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
-  
-  <a href="https://github.com/Athensworks">@Athensworks</a> on GitHub
   
   <script type="text/javascript">
     $.domReady(function(){
@@ -172,7 +204,7 @@
 
         github.showRepos({
             user: 'Athensworks',
-            count: 0,
+            count: 5,
             skip_forks: true,
             target: '#gh_repos'
         });

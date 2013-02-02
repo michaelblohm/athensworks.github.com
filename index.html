@@ -193,12 +193,10 @@ If you can do your work at a desk, we welcome you to check us out. Part of the f
 </section>
 
 <section>
-  <h1>GitHub Repos</h1>
+  <h1>GitHub Projects</h1>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
-  
-  <a href="https://github.com/Athensworks">@Athensworks</a> on GitHub
   
   <script type="text/javascript">
     $.domReady(function(){
@@ -212,7 +210,7 @@ If you can do your work at a desk, we welcome you to check us out. Part of the f
 
         github.showRepos({
             user: 'Athensworks',
-            count: 0,
+            count: 5,
             skip_forks: true,
             target: '#gh_repos'
         });
