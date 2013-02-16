@@ -7,19 +7,15 @@ footer: false
 basic_slider: true
 ---
 
-<!--  Outer wrapper for presentation only, this can be anything you like -->
 <div id="banner-fade">
   
-  <!-- start Basic Jquery Slider -->
   <ul class="bjqs">
     <li><img src="/images/slideshow/slide1.jpeg" title="Our conference table"></li>
     <li><img src="/images/slideshow/slide2.jpeg" title="The front view"></li>
     <li><img src="/images/slideshow/slide3.jpeg" title="Chairs on the wall"></li>
   </ul>
-  <!-- end Basic jQuery Slider -->
 
 </div>
-<!-- End outer wrapper -->
 
 <script class="secret-source">
   jQuery(document).ready(function($) {
@@ -27,7 +23,8 @@ basic_slider: true
     $('#banner-fade').bjqs({
       height      : 320,
       width       : 620,
-      responsive  : true
+      responsive  : true,
+      hoverpause : true
     });
 
   });
