@@ -10,6 +10,6 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  <div class="fb-like-box" data-href="{{ site.facebook_sidbar_page_url }}" data-width="{{ site.facebook_sidebar_width }}" data-height="{{ site.facebook_sidebar_height }}" data-show-faces="{{ site.facebook_sidebar_show_faces }}" data-stream="{{ site.facebook_sidebar_show_stream }}" data-header="{{ site.facebook_sidebar_show_header }}"></div>
+  <div class="fb-like-box" data-href="{{ site.facebook_sidbar_page_url }}" data-width="{{ site.facebook_sidebar_width }}" {% if site.facebook_sidebar_height %} data-height="{{ site.facebook_sidebar_height }}" {% endif %} data-show-faces="{{ site.facebook_sidebar_show_faces }}" data-stream="{{ site.facebook_sidebar_show_stream }}" data-header="{{ site.facebook_sidebar_show_header }}"></div>
 </section>
 {% endif %}

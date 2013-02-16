@@ -98,9 +98,8 @@ google_analytics_tracking_id:
 # Facebook Like
 facebook_like: true
 facebook_sidbar_embed: true
-facebook_sidbar_page_url: https://www.facebook.com/Athensworks
+facebook_sidbar_page_url: http://www.facebook.com/Athensworks
 facebook_sidebar_width: 250
-facebook_sidebar_height: 500
 facebook_sidebar_show_faces: true
-facebook_sidebar_show_stream: true
+facebook_sidebar_show_stream: false #Hide stream for now... re-enable later.
 facebook_sidebar_show_header: true
