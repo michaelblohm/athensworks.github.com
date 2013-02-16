@@ -35,7 +35,7 @@ Rate Table
       <td>$50/month<strong>*</strong></td>
       <td>$50/month<strong>*</strong></td>
       <td>$25/month<strong>*</strong></td>
-      <td>$8/day</td>
+      <td>$10/day</td>
     </tr>
     <tr>
       <td style="height: 95px;"><strong>Conference Room</strong></td>
